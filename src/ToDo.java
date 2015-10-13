@@ -10,6 +10,7 @@ public class ToDo {
         ArrayList <ToDoItem > todos = new ArrayList();
         Scanner scanner = new Scanner(System.in);
 
+
         while (true) {
             int todoNum = 1;
             for (ToDoItem todo : todos) {
